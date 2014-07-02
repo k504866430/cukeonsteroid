@@ -1,0 +1,173 @@
+<html>
+<head>
+</head>
+<body>
+<div class="container">
+	<div class="jumbotron">
+	  <h1>Cukes on Steroids- A cucumber dashboard for Rally</h1>
+	</div>
+	<div class="row">
+    	<div class="col-lg-4">
+            <h2>Collaborate</h2>
+            <ul class="list-group">
+			  <li class="list-group-item">Define stories and features in Rally</li>
+			  <li class="list-group-item">Involve business and developers</li>
+			  <li class="list-group-item">Discuss and document scenarios online</li>
+			  <li class="list-group-item">Execute scenarios against live application</li>
+			</ul>
+            <a class="btn btn-default" href="#">More Info</a>
+        </div>
+        <div class="col-lg-4">
+            <h2>Convince</h2>
+            <ul class="list-group">
+			  <li class="list-group-item">Demonstrate story completion with live results</li>
+			  <li class="list-group-item">Build trust with screen shots reports</li>
+			  <li class="list-group-item">Ensure cross browser testing</li>
+			</ul>
+            <a class="btn btn-default" href="#">More Info</a>
+        </div>
+        <div class="col-lg-4">
+            <h2><small><i>..and</i></small>&nbsp;Conquer</h2>
+            <ul class="list-group">
+			  <li class="list-group-item">Happy Customers</li>
+			  <li class="list-group-item">Happy Developers</li>
+			  <li class="list-group-item">Now, seriously! What more you want.</li>
+			</ul>
+        </div>
+    </div>
+    <div class="row">&nbsp;
+	    <div class="page-header">
+		  <h1>Your Rally can look like this too!!<small></small></h1>
+		</div>
+    </div>
+	<div class="rally">
+		<div class="row">
+		  <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		    <h3>Credit card payment option</h3>
+		      <div id="editor2">Feature: Payments
+	  As a customer
+	  In order to buy clothes
+	  I must be able to pay using credit card
+	
+	  Background: I have "checked out" clothing 
+	
+	  Scenario: Credit card payment option
+	    When I visit the "payment" page<span class="glyphicon glyphicon-search"></span>
+	    Then I should be able to select "Credit Card"
+			  </div>
+		      <div class="caption">
+		        <div class="alert alert-warning" role="alert">Warning! You have some problem with step definition(s).</div>
+		        <p><a href="#" class="btn btn-primary" role="button">Edit</a>
+		      </div>
+		    </div>
+		  </div>
+		  
+		  <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		    <h3>Credit card payment processing</h3>
+		      <div id="editor1">Feature: Payments
+	  As a customer
+	  In order to buy clothes
+	  I must be able to pay using credit card
+	
+	  Background: I have "checked out" clothing 
+	
+	  Scenario: Credit card payment option
+	    When I visit the "payment" page
+	    Then I should be able to select "Credit Card"
+			  </div>
+		      <div class="caption">
+		        <div class="alert alert-success" role="alert">Well done! The feature passed in Dev</div>
+		        <div class="alert alert-danger" role="alert">Oh snap! The feature failed in SIT&nbsp;&nbsp; <a href="#" style="font-size: 11px;">more info</a></div>
+		        <div class="alert alert-success" role="alert">Well done! The feature passed in UAT</div>
+		        <div class="page-header">
+				  <h1><small>Run History</small></h1>
+				  <ul class="pagination">
+					  <!-- <li><a href="#">&laquo;</a></li> -->
+					  <li class="active"><a href="#">26</a></li>
+					  <li><a href="#">25</a></li>
+					  <li><a href="#">24</a></li>
+					  <li><a href="#">23</a></li>
+					  <li><a href="#">22</a></li>
+					  <li><a href="#">&raquo;</a></li>
+				  </ul>
+				  <p><a href="#" class="btn btn-primary" role="button">Run Again</a>
+				</div>
+		      </div>
+		    </div>
+		  </div>
+		  
+		  <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		    <h3>Add new scenario</h3>
+		      <div id="editor3">
+			  </div>
+		      <div class="caption">
+		        <p><a href="#" class="btn btn-primary" role="button">Save</a>
+		        <a href="#" class="btn btn-default" role="button">Save & Run</a></p>
+		      </div>
+		    </div>
+		  </div>
+		  
+		</div>
+	</div>
+	<!-- <div id="editor3">
+		  </div> -->
+</div>
+<script src="https://rawgithub.com/ajaxorg/ace-builds/master/src/ace.js" type="text/javascript" charset="utf-8"></script>
+  <script src="https://rawgithub.com/ajaxorg/ace-builds/master/src/ext-language_tools.js" type="text/javascript" charset="utf-8"></script>
+  <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+<!--  <script src="http://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.14/require.min.js"></script> -->
+<script src='http://cdn.ractivejs.org/latest/ractive.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js'></script>
+<script src='../js/app.js'></script>
+<script src='../js/gherkin_samples.js'></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="http://threejs.org/build/three.min.js"></script>
+
+<style type="text/css" media="screen">
+#editor { 
+    /* position: absolute; */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 700px;
+    width: 900px;
+}
+
+#editor1,#editor2,#editor3 { 
+    /* position: absolute; */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 200px;
+    width: 90%;
+}
+
+.ace_editor.ace_autocomplete {
+	width: 600px
+}
+
+.rally {
+	background-image: url('../images/RallyBackground.png');
+	background-repeat: no-repeat;
+	height: 700px;
+}
+
+.rally .row {
+	padding-left: 180px;
+	padding-top: 100px;
+}
+</style>
+</body>
+</html>
